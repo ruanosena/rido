@@ -106,10 +106,8 @@ select {
   --outline-box-shadow-contrast: 0 0 0 2px var(--navy-blue);
 
   /* Fonts */
-  --sans-serif: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Ubuntu, Helvetica, sans-serif;
-  --monospace: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console,
-    monospace;
+  --sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Helvetica, sans-serif;
+  --monospace: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
 }
 
 html {
@@ -228,9 +226,9 @@ hr {
 }
 
 .logo {
-  height: 20px;
-  width: 22px;
+  font-size: 20px;
   margin-inline-end: 10px;
+  line-height: 1;
 }
 
 .avatar {
@@ -383,7 +381,7 @@ ul.notes-list {
   flex: 0 0 auto;
 }
 .banner:before {
-  content: 'The Next.js App Router uses React Server Components by default. ';
+  content: "The Next.js App Router uses React Server Components by default. ";
 }
 .banner a {
   color: #3aa3ff;
@@ -398,7 +396,7 @@ ul.notes-list {
 
 @media screen and (max-width: 640px) {
   .banner:before {
-    content: 'Next.js App Router using React Server Components. ';
+    content: "Next.js App Router using React Server Components. ";
   }
   .banner {
     font-size: 13px;
@@ -767,7 +765,7 @@ ul.notes-list {
 }
 
 .skeleton::after {
-  content: 'Loading...';
+  content: "Loading...";
 }
 .skeleton {
   height: 100%;
